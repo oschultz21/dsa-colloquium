@@ -7,5 +7,8 @@ Tech demo DSA-201
 yes
 
 ### Local machine change
+<<<<<<< HEAD
 
-it's over!
+=======
+local change
+>>>>>>> aadf855852466ad1192643e07fd0567560ea7754
