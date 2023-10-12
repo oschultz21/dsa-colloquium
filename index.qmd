@@ -2,14 +2,18 @@
 title: "to_be_deleted"
 ---
 
-
 This is a Quarto website, yes.
-
-
-
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
+```{r include = FALSE}
+library(ggplot2)
+library(dplyr)
+mt <- mtcars
 ```
+
+```{r}
+mt %>% ggplot(aes(x = mpg, y = wt)) + geom_line()
+```
+
+
